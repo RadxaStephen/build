@@ -103,9 +103,6 @@ function kernel_drivers_prepare_harness() {
 		driver_generic_bring_back_ipx
 		driver_mt7921u_add_pids
 		driver_rtl8152_rtl8153
-		driver_rtl8189ES
-		driver_rtl8189FS
-		driver_rtl8192EU
 		driver_rtl8811_rtl8812_rtl8814_rtl8821
 		driver_xradio_xr819
 		driver_rtl8811CU_rtl8821C
@@ -117,7 +114,6 @@ function kernel_drivers_prepare_harness() {
 		driver_rtl8723DS
 		driver_rtl8723DU
 		driver_rtl8822BS
-		driver_uwe5622
 		driver_rtl8723cs
 	)
 
